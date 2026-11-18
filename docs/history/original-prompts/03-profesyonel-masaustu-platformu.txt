@@ -1,0 +1,1307 @@
+ANA GÖREV: HERMES AGENT TABANLI PROFESYONEL MASAÜSTÜ YAPAY ZEKA PLATFORMU GELİŞTİR
+
+Sen bu projenin kıdemli yazılım mühendisi, ürün mimarı, güvenlik mühendisi, kullanıcı deneyimi tasarımcısı ve teknik karar vericisisin.
+
+Amacın yalnızca çalışan basit bir arayüz hazırlamak değil; Hermes Agent’ı temel alan, bilgisayara kurulabilen, kullanımı son derece kolay, modern, güvenilir ve gelecekte dünya genelinde çok sayıda kullanıcıya sunulabilecek profesyonel bir yapay zeka asistanı platformu geliştirmektir.
+
+Ürünün kalite çıtası şu uygulamaların en başarılı yönleridir:
+
+- ChatGPT
+- Claude Desktop
+- Manus AI
+- Perplexity
+- Cursor
+- Replit Agent
+- Genspark
+- Modern görev ve otomasyon platformları
+
+Bu uygulamaları görsel olarak birebir kopyalama. En başarılı kullanıcı deneyimi yaklaşımlarını analiz et ve özgün, tutarlı, profesyonel bir ürün ortaya çıkar.
+
+1. TEMEL ÜRÜN VİZYONU
+
+Geliştirilecek uygulama:
+
+- Windows bilgisayara kurulabilen gerçek bir masaüstü uygulaması olmalı.
+- İlk aşamada benim kişisel kullanımım için eksiksiz çalışmalı.
+- Mimari olarak gelecekte çok kullanıcılı SaaS sistemine dönüştürülebilmeli.
+- Hermes Agent’ın tüm yeteneklerini anlaşılır bir grafik arayüz üzerinden sunmalı.
+- DeepSeek ve MiMo modellerini görev türüne göre kullanabilmeli.
+- Daha sonra başka model sağlayıcıları kolayca eklenebilmeli.
+- Kullanıcının teknik bilgiye ihtiyaç duymadan karmaşık görevler verebilmesini sağlamalı.
+- Basit sohbetlerden saatler süren otonom görevlere kadar farklı işleri yönetebilmeli.
+- Dosya, tarayıcı, terminal, kod, ekran ve masaüstü otomasyonlarını tek merkezde birleştirmeli.
+- Bir prototip veya sahte demo değil, gerçek çalışan ürün olmalı.
+
+Ürün yalnızca “Hermes için hazırlanmış bir sohbet ekranı” olmayacak. Kullanıcının bilgisayarı, dosyaları, tarayıcısı, projeleri, modelleri ve otomasyonlarıyla çalışan kapsamlı bir yapay zeka çalışma alanı olacaktır.
+
+2. TEKNİK KARAR ÖZGÜRLÜĞÜ
+
+Mevcut kodu, önceki promptları, mimariyi ve benim önerilerimi eleştirel biçimde değerlendir.
+
+Daha iyi bir yöntem görürsen:
+
+- Mimariyi değiştirebilirsin.
+- Gereksiz bileşenleri kaldırabilirsin.
+- Eksik bileşenleri ekleyebilirsin.
+- Kullanılan frameworkleri değiştirebilirsin.
+- Veri modelini yeniden tasarlayabilirsin.
+- Arayüz akışlarını iyileştirebilirsin.
+- Önceki kararları geçersiz kılabilirsin.
+- Daha güvenli, daha hızlı veya daha sürdürülebilir çözümü seçebilirsin.
+
+Sırf önceki promptta yazıyor diye kötü bir kararı uygulama.
+
+Her önemli teknik değişiklikte şu bilgileri kısa şekilde kaydet:
+
+1. Önceki yaklaşım neydi?
+2. Sorunu neydi?
+3. Yeni yaklaşım neden daha iyi?
+4. Geçiş sırasında hangi riskler bulunuyor?
+
+Soru sormadan çözülebilecek konularda benden onay bekleme. Makul mühendislik kararlarını al ve uygula. Ancak geri döndürülemez, veri kaybına yol açabilecek, güvenlik açısından kritik veya ücretli dış servis kullanımı gerektiren işlemlerde açık onay kapısı koy.
+
+3. MASAÜSTÜ UYGULAMASI
+
+Uygulama başlangıçta Windows odaklı geliştirilsin, fakat mümkünse macOS ve Linux desteğine açık bir mimari kullanılsın.
+
+Teknoloji seçimini araştırarak yap. Tauri, Electron veya daha uygun bir alternatif arasında şu kriterlere göre karar ver:
+
+- Performans
+- RAM kullanımı
+- Kurulum boyutu
+- Güvenlik
+- Otomatik güncelleme desteği
+- Yerel dosya ve işletim sistemi erişimi
+- Hermes entegrasyonu
+- Terminal süreçlerinin yönetimi
+- Ekran aktarımı
+- Uzun süreli görevlerin kararlılığı
+- Paketleme ve dağıtım kolaylığı
+
+Uygulama şunları sağlamalı:
+
+- Tek tıklamayla açılma
+- Kolay ilk kurulum
+- Kurulum sihirbazı
+- Hermes Agent durum kontrolü
+- Gerekli bağımlılıkların kontrolü
+- Eksik bağımlılıkların anlaşılır şekilde kurulması
+- Otomatik güncelleme sistemi
+- Güncelleme başarısız olursa geri alma
+- Çökme sonrası oturumu geri yükleme
+- Arka planda çalışabilme
+- Sistem tepsisi desteği
+- Bildirimler
+- Güvenli yerel veri depolama
+- Log görüntüleme ve dışa aktarma
+- Sorun giderme ekranı
+- Uygulamayı güvenli sıfırlama seçeneği
+
+4. ARAYÜZ VE KULLANICI DENEYİMİ
+
+Arayüz profesyonel, sade, hızlı ve ilk defa kullanan bir insanın anlayabileceği kadar açık olmalı.
+
+Kullanıcı terminal komutu, JSON, YAML, model parametresi veya teknik yapılandırma görmek zorunda kalmamalı. Gelişmiş ayarlar ayrı bir bölümde bulunabilir.
+
+Ana arayüz bölümleri
+
+Sol kenar çubuğu
+
+- Yeni sohbet
+- Yeni görev
+- Sohbet geçmişi
+- Görevler
+- Projeler
+- Dosyalar
+- Otomasyonlar
+- Tarayıcı oturumları
+- Bilgisayar kullanımı
+- Ajanlar
+- Modeller
+- Entegrasyonlar
+- Kullanım ve maliyet
+- Ayarlar
+- Yardım ve sorun giderme
+
+Ana sohbet alanı
+
+- ChatGPT benzeri temiz sohbet deneyimi
+- Metin girişi
+- Dosya yükleme butonu
+- Sürükle-bırak dosya yükleme
+- Birden fazla dosya yükleme
+- Klasör seçme
+- Görsel yükleme
+- Ekran görüntüsü ekleme
+- Kamera veya mikrofon desteğine açık mimari
+- Sesli mesaj ve konuşarak komut verme
+- Gönderimi durdurma
+- Yanıtı yeniden üretme
+- Mesajı düzenleyip tekrar çalıştırma
+- Yanıt dallandırma
+- Mesaj kopyalama
+- Markdown ve kod gösterimi
+- Kod bloklarında kopyala, çalıştır ve dosyaya uygula seçenekleri
+- Kaynak ve araç kullanımı ayrıntıları
+- Görev sırasında canlı durum bilgisi
+- Hata oluşursa anlaşılır açıklama ve yeniden deneme
+
+Sağ görev paneli
+
+İsteğe bağlı açılıp kapanabilen panelde şunlar gösterilsin:
+
+- Aktif görev
+- Görev planı
+- Alt görevler
+- Kullanılan ajanlar
+- Kullanılan model
+- Çalışan araç
+- Süre
+- Token kullanımı
+- Tahmini ve gerçekleşen maliyet
+- Dosya değişiklikleri
+- Tarayıcı durumu
+- Terminal çıktısı
+- Bekleyen kullanıcı onayları
+- Üretilen dosyalar
+- Sonuç ve doğrulama durumu
+
+Tasarım gereksinimleri
+
+- Açık ve koyu tema
+- Sistem temasını takip etme
+- Mobil uyumlu web sürümüne açık tasarım
+- Klavye kısayolları
+- Erişilebilirlik
+- Ölçeklenebilir yazı boyutu
+- Türkçe ve İngilizce dil desteği
+- Daha sonra yeni dillerin eklenebileceği çeviri sistemi
+- Donma hissi oluşturmayan canlı geri bildirim
+- Yükleme iskeletleri
+- Boş ekranlar için açıklayıcı yönlendirmeler
+- Teknik hata kodları yerine insanca hata mesajları
+- Gereksiz animasyonlardan kaçınma
+
+5. SOHBET VE GÖREV MODLARI
+
+Uygulamada birbirinden ayrılan fakat birlikte çalışabilen modlar olsun:
+
+Sohbet modu
+
+- Hızlı sorular
+- Metin yazma
+- Fikir üretme
+- Dosya inceleme
+- Araştırma
+- Kod açıklama
+- Basit araç kullanımı
+
+Ajan görevi modu
+
+- Çok adımlı görevler
+- Web araştırması
+- Tarayıcı otomasyonu
+- Bilgisayar kullanımı
+- Dosya düzenleme
+- Kod geliştirme
+- Test çalıştırma
+- Deployment
+- Uzun süreli işler
+- Paralel alt görevler
+- Kullanıcı onay kapıları
+
+Proje modu
+
+Her proje için ayrı:
+
+- Sohbet geçmişi
+- Dosyalar
+- Talimatlar
+- Kalıcı proje hafızası
+- Kod deposu
+- Görevler
+- Otomasyonlar
+- Entegrasyonlar
+- Kullanılan modeller
+- Maliyet
+- Değişiklik geçmişi
+- Sürümler
+- Geri alma noktaları
+
+Hızlı görev modu
+
+Kullanıcının tek cümleyle iş vermesini sağla:
+
+- “Bu klasördeki görselleri incele.”
+- “Bu web sitesini test et.”
+- “Bu projedeki hataları bul ve düzelt.”
+- “Bu ürünleri Genspark üzerinden düzenle.”
+- “Bu dosyaları kategorilere ayır.”
+- “Bu siteyi uygulamaya dönüştür.”
+- “Ödeme akışını baştan sona denetle.”
+
+Sistem isteği analiz ederek gerekli araçları, modeli ve çalışma yöntemini kendisi seçsin.
+
+6. HERMES AGENT ENTEGRASYONU
+
+Hermes Agent uygulamanın ana yürütme motoru olacaktır.
+
+Hermes’i değiştirilemez bir kara kutu olarak ele alma. Sağlam bir adaptör katmanı geliştir.
+
+Bu katman:
+
+- Hermes’i başlatabilmeli.
+- Hermes’i durdurabilmeli.
+- Yeniden başlatabilmeli.
+- Sağlık kontrolü yapabilmeli.
+- Görev gönderebilmeli.
+- Görev durumunu takip edebilmeli.
+- Canlı çıktı alabilmeli.
+- Araç çağrılarını okuyabilmeli.
+- Dosya çıktılarını kaydedebilmeli.
+- Hataları standart formata dönüştürebilmeli.
+- İptal komutu gönderebilmeli.
+- Zaman aşımını yönetebilmeli.
+- Çökme sonrası görevi kurtarabilmeli.
+- Bir görevi kaldığı yerden devam ettirebilmeli.
+- Aynı anda birden fazla görev çalıştırabilmeli.
+- Görevleri kuyruklayabilmeli.
+- Her görevi proje ve kullanıcıyla ilişkilendirebilmeli.
+
+Hermes sürümü veya iç API’si değiştiğinde tüm uygulamanın bozulmaması için sürümlenmiş entegrasyon arayüzü kullan.
+
+Hermes’in desteklemediği fakat ürün için gerekli bir özellik varsa bunu dürüstçe tespit et. Sahte şekilde “tamamlandı” gösterme. Eksik özelliği güvenli bir eklenti, ayrı servis veya araç katmanıyla tamamla.
+
+7. MODEL ORKESTRASYONU
+
+Şu an sisteme DeepSeek ve MiMo bağlıdır.
+
+Model isimlerini kod içine sabit gömme. Model sağlayıcılarını adaptör sistemiyle yönet.
+
+Başlangıçta desteklenecek yapı:
+
+- DeepSeek
+- MiMo
+- Gelecekte OpenAI
+- Gelecekte Anthropic
+- Gelecekte Gemini
+- Gelecekte yerel modeller
+- OpenAI uyumlu özel API uçları
+
+Görev yönlendirme sistemi
+
+Sistem görevi analiz ederek model seçsin.
+
+Örnek yönlendirme:
+
+- Basit ve hızlı işler: daha ekonomik model
+- Karmaşık kodlama: güçlü kodlama modeli
+- Uzun bağlam: uzun bağlamı daha iyi yöneten model
+- Görsel analiz: görsel destekleyen model
+- Planlama: güçlü akıl yürütme modeli
+- Kontrol ve doğrulama: görevi yapan modelden farklı model
+- Büyük görev: planlayıcı ve yürütücü modelleri ayır
+- Kritik çıktı: ikinci modelle kontrol
+- Başarısız görev: otomatik alternatif model
+- Maliyet sınırı aşılırsa: daha ekonomik model veya kullanıcı onayı
+
+Model router şu verileri dikkate alsın:
+
+- Görev türü
+- Görev karmaşıklığı
+- Bağlam uzunluğu
+- Dosya türleri
+- Görsel gereksinimi
+- Kodlama gereksinimi
+- Gizlilik seviyesi
+- Gecikme
+- Model kullanılabilirliği
+- Token maliyeti
+- Kullanıcı bütçesi
+- Önceki başarı oranı
+- Modelin gerçek görev performansı
+
+Model rolleri
+
+Gerektiğinde farklı roller kullan:
+
+- Koordinatör
+- Planlayıcı
+- Araştırmacı
+- Kodlayıcı
+- Tarayıcı operatörü
+- Dosya işleyici
+- Test uzmanı
+- Güvenlik denetçisi
+- Sonuç doğrulayıcı
+- Eleştirmen
+
+Her görevde bütün modelleri çalıştırma. Gereksiz maliyet yaratma.
+
+Pro modeller yalnızca gerçekten gerekli olduğunda kullanılmalı. Küçük görevleri pahalı modele yönlendirme.
+
+8. COMPUTER USE VE TARAYICI OTOMASYONU
+
+Uygulamanın en önemli bölümlerinden biri bilgisayar ve tarayıcı kullanımıdır.
+
+Sistem şunları desteklemeli:
+
+- Fare hareketleri
+- Tıklama
+- Klavye girişi
+- Kaydırma
+- Pencere değiştirme
+- Ekran görüntüsü alma
+- Ekranı canlı izleme
+- Tarayıcı açma
+- Sekme yönetimi
+- Form doldurma
+- Dosya yükleme
+- Dosya indirme
+- Oturum açma akışları
+- Kullanıcıdan gerektiğinde oturum devralmasını isteme
+- CAPTCHA veya iki faktörlü doğrulamada kullanıcıya kontrol verme
+- İşlem sonrasında kontrolü ajana geri verme
+- Tarayıcı oturumlarını saklama
+- Hassas oturumları güvenli şekilde temizleme
+- Görevi duraklatma
+- Görevi sürdürme
+- Kullanıcının istediği anda kontrolü devralması
+
+Canlı ekran alanında:
+
+- Ajanın ne yaptığı gösterilsin.
+- Tıklanan noktalar görsel olarak işaretlenebilsin.
+- Güncel adım açıklansın.
+- Kullanıcı “Duraklat”, “Devral”, “Devam Ettir” ve “Görevi Bitir” seçeneklerini kullanabilsin.
+- Gizli giriş alanları ve parolalar loglara yazılmasın.
+- Tehlikeli işlemler onaysız yapılmasın.
+
+9. DOSYA VE KLASÖR YÖNETİMİ
+
+Desteklenmesi gereken temel dosya türleri:
+
+- PDF
+- DOCX
+- XLSX
+- PPTX
+- TXT
+- Markdown
+- CSV
+- JSON
+- XML
+- Görseller
+- Ses
+- Video
+- ZIP
+- Kod dosyaları
+- Proje klasörleri
+
+Özellikler:
+
+- Dosya önizleme
+- Dosya içeriğini analiz etme
+- Birden fazla dosya arasında arama
+- Dosyaları karşılaştırma
+- Klasörü proje olarak açma
+- Dosya üretme
+- Dosya dönüştürme
+- Dosya yeniden adlandırma
+- Dosyaları sınıflandırma
+- Toplu işlem
+- Dosya değişiklik geçmişi
+- Önceki sürüme dönme
+- Silmeden önce onay
+- Çöp kutusu
+- Üretilen dosyaları kolay indirme veya açma
+- Yerel dosyaların izinsiz buluta gönderilmesini engelleme
+
+Dosya değişiklikleri için mümkün olduğunda patch-first yaklaşımı kullan. Özellikle kod ve metin dosyalarında tüm dosyayı kontrolsüz şekilde yeniden yazmak yerine değişiklik farkını üret.
+
+10. KODLAMA VE YAZILIM GELİŞTİRME
+
+Uygulama bir kodlama ajanı olarak şunları yapabilmeli:
+
+- Yeni proje oluşturma
+- Mevcut projeyi analiz etme
+- Kod yazma
+- Dosya düzenleme
+- Git kullanma
+- Branch oluşturma
+- Diff gösterme
+- Test çalıştırma
+- Lint çalıştırma
+- Build alma
+- Hata ayıklama
+- Paket güncelleme
+- Veritabanı migration
+- Docker işlemleri
+- Deployment
+- CI/CD inceleme
+- Güvenlik taraması
+- Performans analizi
+- Kod inceleme
+- Geri alma
+
+Kullanıcıya şu bilgiler gösterilsin:
+
+- Değiştirilen dosyalar
+- Eklenen satırlar
+- Silinen satırlar
+- Çalıştırılan komutlar
+- Test sonuçları
+- Başarısız testler
+- Bilinen riskler
+- Geri alma seçeneği
+
+“İşlem başarılı” demeden önce gerçek doğrulama yap.
+
+Bir web sitesi geliştirildiyse:
+
+- Build çalışmalı.
+- Temel sayfalar açılmalı.
+- Konsol hataları kontrol edilmeli.
+- Mobil görünüm test edilmeli.
+- Kritik kullanıcı akışları denenmeli.
+- Gerekirse ekran görüntüsü kanıtı üretilmeli.
+
+11. ARAŞTIRMA MODU
+
+Araştırma ajanı:
+
+- Web üzerinde arama yapabilmeli.
+- Birden fazla kaynağı karşılaştırmalı.
+- Kaynak tarihlerini kontrol etmeli.
+- Güncel ve eski bilgiyi ayırmalı.
+- Kaynak bağlantılarını göstermeli.
+- Belirsiz bilgileri kesinmiş gibi sunmamalı.
+- Çelişkili kaynakları belirtmeli.
+- Araştırma raporu oluşturabilmeli.
+- Sonuçları PDF, DOCX veya Markdown olarak dışa aktarabilmeli.
+- Kullanılan kaynakların güvenilirlik seviyesini değerlendirebilmeli.
+
+Araştırma ekranında:
+
+- Arama planı
+- İncelenen kaynaklar
+- Toplanan bulgular
+- Çelişkiler
+- Sonuç
+- Kaynakça
+
+ayrı bölümler halinde gösterilebilsin.
+
+12. OTOMASYONLAR VE ZAMANLANMIŞ GÖREVLER
+
+Kullanıcı şu tür otomasyonlar oluşturabilsin:
+
+- Belirli saatte görev çalıştırma
+- Günlük veya haftalık görev
+- Klasöre dosya gelince çalıştırma
+- Web sitesindeki değişikliği takip etme
+- E-posta geldiğinde işlem başlatma
+- Belirli koşul gerçekleşince bildirme
+- Başarısız görevi tekrar deneme
+- Uzun görev kotası yenilendiğinde devam etme
+- Bilgisayar yeniden başladıktan sonra kaldığı yerden sürdürme
+
+Otomasyonlar için:
+
+- Zamanlama
+- Tetikleyici
+- Koşullar
+- Kullanılacak ajan
+- Kullanılacak model
+- Maliyet sınırı
+- Maksimum çalışma süresi
+- Tekrar deneme politikası
+- Bildirim ayarı
+- Çalışma geçmişi
+- Başarı ve hata kayıtları
+
+bulunsun.
+
+13. UZUN SÜRELİ GÖREVLER
+
+Bazı görevler birkaç dakika değil, saatler sürebilir.
+
+Bu nedenle görev sistemi:
+
+- Kalıcı kuyruk kullanmalı.
+- Uygulama kapanınca görevi kaybetmemeli.
+- Kontrol noktaları oluşturmalı.
+- Adım bazında ilerlemeyi kaydetmeli.
+- Başarısız adımı tekrar deneyebilmeli.
+- Tüm görevi baştan başlatmak zorunda kalmamalı.
+- Kota veya servis limiti dolarsa güvenli şekilde duraklamalı.
+- Limit yenilendiğinde devam edebilmeli.
+- Ağ bağlantısı kesilirse bekleyip tekrar deneyebilmeli.
+- Bilgisayar yeniden başlatıldığında görevi kurtarabilmeli.
+- Kullanıcıya gerçek ilerleme yüzdesi veya anlamlı aşama bilgisi göstermeli.
+
+Sahte ilerleme çubuğu kullanma.
+
+14. HAFIZA SİSTEMİ
+
+Hafızayı katmanlara ayır:
+
+Sohbet hafızası
+
+Aktif konuşmanın bağlamı.
+
+Proje hafızası
+
+Projeye ait:
+
+- Amaçlar
+- Teknik kararlar
+- Kullanıcı tercihleri
+- Dosyalar
+- Önceki görevler
+- Bilinen sorunlar
+- Yapılmaması gerekenler
+- Tasarım kuralları
+
+Kullanıcı hafızası
+
+Kullanıcının açıkça kaydedilmesine izin verdiği kalıcı tercihler.
+
+Çalışma hafızası
+
+Aktif görevin geçici bilgileri.
+
+Kullanıcı:
+
+- Hafızada ne tutulduğunu görebilmeli.
+- Kaydı düzenleyebilmeli.
+- Kaydı silebilmeli.
+- Hafızayı tamamen kapatabilmeli.
+- Proje hafızasını dışa aktarabilmeli.
+
+Hassas bilgileri izinsiz kalıcı hafızaya alma.
+
+15. GÜVENLİK VE İZİN SİSTEMİ
+
+Bu bölüm sonradan eklenecek bir ayrıntı değil, mimarinin temel parçasıdır.
+
+API anahtarları
+
+- Düz metin olarak saklanmamalı.
+- İşletim sisteminin güvenli anahtar kasası kullanılmalı.
+- Arayüzde tam anahtar tekrar gösterilmemeli.
+- Loglara yazılmamalı.
+- Dışa aktarılan yedeklere varsayılan olarak eklenmemeli.
+- Anahtar geçerliliği test edilebilmeli.
+- Sağlayıcı bazında ayrı tutulmalı.
+
+Yetki sistemi
+
+Ajanın yetkileri ayrı ayrı yönetilebilmeli:
+
+- Dosya okuma
+- Dosya yazma
+- Dosya silme
+- Terminal çalıştırma
+- İnternet erişimi
+- Tarayıcı kullanımı
+- Masaüstü kontrolü
+- Kamera
+- Mikrofon
+- Pano
+- Bildirim
+- E-posta
+- Harici entegrasyon
+- Satın alma veya ödeme işlemi
+
+Onay gerektiren işlemler
+
+Aşağıdaki işlemler varsayılan olarak açık kullanıcı onayı gerektirsin:
+
+- Dosya silme
+- Büyük miktarda dosya değiştirme
+- Sistem ayarı değiştirme
+- Uygulama yükleme veya kaldırma
+- Para harcama
+- Satın alma
+- Ödeme gönderme
+- E-posta gönderme
+- Sosyal medya paylaşımı
+- Git push
+- Production deployment
+- Veritabanı silme
+- Kullanıcı hesabı silme
+- Parola değiştirme
+- Geri döndürülemez işlem
+
+Onay ekranında yalnızca “İzin ver” yazmasın. Şunlar açıkça belirtilsin:
+
+- Ne yapılacak?
+- Hangi dosya veya hesap etkilenecek?
+- Neden gerekli?
+- Risk nedir?
+- Geri alınabilir mi?
+- Tahmini maliyet nedir?
+
+Sandbox
+
+Riskli kodlar ve bilinmeyen projeler mümkün olduğunda izole ortamda çalıştırılmalı.
+
+16. GİZLİLİK
+
+Uygulama kullanıcıya şu konularda açık bilgi vermeli:
+
+- Hangi veri yerelde tutuluyor?
+- Hangi veri modele gönderiliyor?
+- Hangi model sağlayıcısına gönderiliyor?
+- Dosyanın tamamı mı, yalnızca ilgili kısmı mı gönderiliyor?
+- Loglar nerede tutuluyor?
+- Veriler ne zaman siliniyor?
+
+Gizlilik modları oluştur:
+
+1. Standart mod
+2. Yerel öncelikli mod
+3. Hassas proje modu
+4. Tamamen yerel model modu için geleceğe hazır yapı
+
+Hassas projelerde otomatik veri maskeleme ve gizli bilgi tespiti eklenmesini değerlendir.
+
+17. MALİYET VE KULLANIM TAKİBİ
+
+Her görev için şunları kaydet:
+
+- Kullanılan model
+- Girdi tokenı
+- Çıktı tokenı
+- Araç kullanımı
+- Görev süresi
+- Tahmini maliyet
+- Gerçekleşen maliyet
+- Başarısız denemelerin maliyeti
+- Model bazında toplam
+- Proje bazında toplam
+- Günlük, haftalık ve aylık toplam
+
+Kullanıcı bütçe sınırları koyabilsin:
+
+- Görev başına
+- Günlük
+- Haftalık
+- Aylık
+- Proje başına
+- Model başına
+
+Sınır yaklaşınca uyarı ver. Sınır aşılmadan önce görev durdurulsun veya daha ekonomik modele geçmek için politika uygulansın.
+
+Gelecekte kredi paketli SaaS sistemine geçişe uygun maliyet muhasebesi tasarla.
+
+18. ÇOK KULLANICILI GELECEK MİMARİSİ
+
+İlk sürüm kişisel masaüstü uygulaması olsa da aşağıdakileri baştan düşün:
+
+- Kullanıcı hesapları
+- Organizasyonlar
+- Ekipler
+- Roller
+- Yetkiler
+- Kullanıcıya özel API anahtarları
+- Ortak kurumsal API havuzu
+- Kullanıcı başına kota
+- Proje izolasyonu
+- Dosya izolasyonu
+- Görev izolasyonu
+- Kullanıcı bazlı loglar
+- Faturalama
+- Kredi paketleri
+- Abonelik planları
+- Yönetici paneli
+- Kötüye kullanım önleme
+- Rate limit
+- Denetim kayıtları
+- Veri silme talepleri
+- Kullanıcı verisi dışa aktarma
+- KVKK ve GDPR uyumuna açık yapı
+
+Ancak ilk sürümü gereksiz kurumsal karmaşıklıkla boğma. Modüler ve geçişe hazır tasarla.
+
+19. ENTEGRASYON SİSTEMİ
+
+Eklenti ve entegrasyon mimarisi oluştur.
+
+Gelecekte desteklenebilecek örnekler:
+
+- Gmail
+- Google Drive
+- Google Calendar
+- GitHub
+- GitLab
+- Slack
+- Discord
+- Notion
+- Dropbox
+- OneDrive
+- Google Sheets
+- PostgreSQL
+- MySQL
+- Supabase
+- Firebase
+- Railway
+- Vercel
+- Cloudflare
+- AWS
+- Genspark
+- MCP sunucuları
+- Özel REST API’leri
+- Webhooklar
+
+Her entegrasyon:
+
+- Ayrı izinlere sahip olmalı.
+- Bağlantı durumu gösterilmeli.
+- Kolayca kaldırılabilmeli.
+- Hata durumunda tüm uygulamayı etkilememeli.
+- Gizli bilgileri güvenli saklamalı.
+- Hangi görevlerde kullanıldığı kaydedilmeli.
+
+20. AJAN VE SKILL SİSTEMİ
+
+Kullanıcı özel ajanlar oluşturabilsin.
+
+Her ajan için:
+
+- Ad
+- Açıklama
+- Sistem talimatı
+- Kullanabileceği modeller
+- Kullanabileceği araçlar
+- Dosya erişimi
+- İnternet erişimi
+- Onay politikası
+- Maliyet sınırı
+- Hafıza ayarı
+- Varsayılan çıktı biçimi
+- Örnek görevler
+
+bulunsun.
+
+Hazır ajan örnekleri:
+
+- Genel asistan
+- Yazılım geliştirici
+- Web araştırmacısı
+- Site test uzmanı
+- E-ticaret operasyon ajanı
+- Görsel işleme ajanı
+- Dosya düzenleme ajanı
+- Güvenlik denetçisi
+- İçerik üreticisi
+- Veri analisti
+
+Skill sistemiyle belirli görev yöntemleri yeniden kullanılabilsin. Skill’ler sürümlenebilsin, dışa aktarılabilsin ve başka kullanıcılarla paylaşılabilsin.
+
+21. GÖREV PLANLAMA VE ÇOKLU AJAN ÇALIŞMASI
+
+Karmaşık görevlerde sistem:
+
+1. Kullanıcı isteğini analiz etsin.
+2. Başarı ölçütlerini çıkarsın.
+3. Riskleri belirlesin.
+4. Görevi alt görevlere ayırsın.
+5. Uygun ajan ve modelleri seçsin.
+6. Bağımlılıkları belirlesin.
+7. Paralel yapılabilecek işleri paralel çalıştırsın.
+8. Sonuçları birleştirsin.
+9. Test ve doğrulama yapsın.
+10. Kullanıcıya sonuç, değişiklik ve risk raporu sunsun.
+
+Plan kullanıcıya gösterilebilmeli ancak her küçük görevde gereksiz uzun plan üretme.
+
+Ajanlar arasında yapılandırılmış görev protokolü kullan. Bir ajanın diğerine gönderdiği bilgi rastgele sohbet metni değil; görev, bağlam, beklenen çıktı, sınırlar ve doğrulama kriterlerini içermeli.
+
+22. SONUÇ DOĞRULAMA
+
+Her görev için tamamlanma kriterleri oluştur.
+
+Örnekler:
+
+- Dosya üretildiyse gerçekten var mı?
+- Kod değiştiyse build geçiyor mu?
+- Testler çalışıyor mu?
+- Web sitesi açılıyor mu?
+- Form gönderilebiliyor mu?
+- İndirilen dosya bozuk mu?
+- Tarayıcı işlemi gerçekten tamamlandı mı?
+- Gönderilen e-posta doğru alıcıya mı gitti?
+- Görseller doğru sayıda mı üretildi?
+- Kullanıcı isteğinin tüm maddeleri karşılandı mı?
+
+Doğrulanamayan işlemi tamamlanmış gibi gösterme.
+
+Sonuç durumları şu şekilde olabilir:
+
+- Tamamlandı ve doğrulandı
+- Tamamlandı ancak kısmen doğrulandı
+- Kullanıcı onayı bekliyor
+- Harici servis bekleniyor
+- Kısmen tamamlandı
+- Başarısız
+- İptal edildi
+- Duraklatıldı
+
+23. HATA YÖNETİMİ
+
+Hataları standartlaştır:
+
+- Kullanıcı hatası
+- Model hatası
+- Araç hatası
+- Ağ hatası
+- Yetki hatası
+- API limiti
+- Kota dolması
+- Kimlik doğrulama hatası
+- Dosya hatası
+- Uygulama hatası
+- Hermes hatası
+- Harici servis hatası
+
+Her hata için:
+
+- Kullanıcıya anlaşılır açıklama
+- Teknik ayrıntı
+- Yeniden deneme seçeneği
+- Alternatif yöntem
+- Log kimliği
+- Gerekirse hata raporu dışa aktarma
+
+sunulsun.
+
+Sessizce başarısız olma.
+
+24. LOG, DENETİM VE GÖZLEMLENEBİLİRLİK
+
+Kaydedilecek olaylar:
+
+- Görev başlangıcı
+- Görev bitişi
+- Model çağrıları
+- Araç çağrıları
+- Dosya değişiklikleri
+- Terminal komutları
+- Kullanıcı onayları
+- Hatalar
+- Yeniden denemeler
+- Maliyet
+- Entegrasyon kullanımı
+- Yetki değişiklikleri
+- Güncellemeler
+
+Loglarda parola, API anahtarı, oturum çerezi veya hassas kişisel veri görünmemeli.
+
+Geliştirici modu içinde:
+
+- Sistem durumu
+- Hermes durumu
+- Kuyruk durumu
+- Aktif süreçler
+- Model sağlayıcı durumu
+- Veritabanı durumu
+- Son hatalar
+- Performans ölçümleri
+
+görülebilsin.
+
+25. VERİ KATMANI
+
+Veritabanı ve depolama yapısını şu varlıkları destekleyecek şekilde tasarla:
+
+- Users
+- Organizations
+- Workspaces
+- Projects
+- Conversations
+- Messages
+- Tasks
+- Task steps
+- Agents
+- Skills
+- Tools
+- Model providers
+- Model configurations
+- Files
+- File versions
+- Artifacts
+- Automations
+- Automation runs
+- Browser sessions
+- Computer sessions
+- Approvals
+- Permissions
+- Memories
+- Integrations
+- Usage records
+- Cost records
+- Audit logs
+- Notifications
+- Settings
+
+İlk yerel sürümde uygun yerel veritabanı kullanılabilir. Gelecekte PostgreSQL gibi sunucu veritabanına geçiş kolay olmalı.
+
+Migration sistemi oluştur.
+
+26. API VE MODÜLER MİMARİ
+
+Arayüzü doğrudan Hermes iç koduna bağlama.
+
+Katmanları ayır:
+
+- Desktop shell
+- Frontend UI
+- Application API
+- Authentication
+- Task orchestration
+- Hermes adapter
+- Model router
+- Tool registry
+- Permission and approval engine
+- Memory service
+- File service
+- Browser service
+- Computer-use service
+- Automation service
+- Usage and billing service
+- Notification service
+- Integration service
+- Audit and logging service
+
+Her modül için açık arayüz, hata modeli ve testler oluştur.
+
+27. TEST STRATEJİSİ
+
+Aşağıdaki test türlerini uygula:
+
+- Unit test
+- Integration test
+- End-to-end test
+- UI test
+- API test
+- Hermes adaptör testi
+- Model router testi
+- İzin sistemi testi
+- Dosya güvenliği testi
+- Uzun görev kurtarma testi
+- Güncelleme ve rollback testi
+- Çökme sonrası kurtarma testi
+- Çoklu görev testi
+- Maliyet hesaplama testi
+- Tarayıcı otomasyonu testi
+- Computer-use onay testi
+
+Kritik kullanıcı akışları için otomatik testler yaz:
+
+1. Uygulamayı ilk kez açma
+2. Model API anahtarı ekleme
+3. Hermes bağlantısını doğrulama
+4. Sohbet başlatma
+5. Dosya yükleme
+6. Dosya analiz ettirme
+7. Ajan görevi başlatma
+8. Tarayıcı görevi çalıştırma
+9. Kullanıcının kontrolü devralması
+10. Dosya değişikliğini onaylama
+11. Görevi durdurma ve sürdürme
+12. Uygulamayı kapatıp görevi geri yükleme
+13. Proje oluşturma
+14. Otomasyon oluşturma
+15. Kullanım maliyetini görme
+
+28. PERFORMANS
+
+Hedefler:
+
+- Uygulama hızlı açılmalı.
+- Sohbet ekranı takılmamalı.
+- Uzun loglar arayüzü dondurmamalı.
+- Büyük dosyalar parça parça işlenmeli.
+- Görev çıktıları akış halinde gösterilmeli.
+- Gereksiz yeniden render önlenmeli.
+- Arka plan işleri UI thread’ini engellememeli.
+- Bellek sızıntıları kontrol edilmeli.
+- Uzun süre açık kaldığında kararlı çalışmalı.
+- Aynı anda çalışan görev sayısı sınırlandırılabilmeli.
+
+29. KURULUM VE ONBOARDING
+
+İlk açılışta kullanıcıya şu akış sunulsun:
+
+1. Hoş geldiniz ekranı
+2. Yerel kullanım ve gizlilik açıklaması
+3. Hermes kurulumu veya mevcut kurulumu bulma
+4. Hermes sağlık kontrolü
+5. DeepSeek bağlantısı
+6. MiMo bağlantısı
+7. Anahtarların güvenli kaydı
+8. Model testleri
+9. Dosya ve bilgisayar erişim izinleri
+10. Güvenlik politikası seçimi
+11. Örnek ilk görev
+12. Ana uygulamaya geçiş
+
+Teknik hata varsa kullanıcıya çözüm adımları göster.
+
+Kurulumun ortasında hata oluşursa bütün süreci baştan başlatmak zorunda bırakma.
+
+30. DAĞITIM VE PAKETLEME
+
+Windows için gerçek kurulum paketi üret:
+
+- İmzalanabilir installer
+- Sürüm numarası
+- Otomatik güncelleme
+- Güncelleme kanalları: stable ve beta
+- Temiz kaldırma
+- Kullanıcı verisini koruyarak kaldırma seçeneği
+- Tam veri silerek kaldırma seçeneği
+- Çökme raporu
+- Geri alma
+- Release notları
+
+Geliştirici makinesinde çalışan kodu “ürün hazır” sayma. Temiz bir Windows ortamında kurulum testini planla.
+
+31. DOKÜMANTASYON
+
+Şu belgeleri oluştur ve güncel tut:
+
+- README
+- Kurulum rehberi
+- Geliştirici rehberi
+- Mimari doküman
+- Veri modeli
+- API dokümanı
+- Hermes entegrasyon dokümanı
+- Model sağlayıcı ekleme rehberi
+- Yeni tool ekleme rehberi
+- Güvenlik modeli
+- İzin ve onay sistemi
+- Test rehberi
+- Release süreci
+- Sorun giderme
+- Bilinen eksikler
+- Yol haritası
+- Karar kayıtları
+
+Dokümantasyon gerçek sistemle uyumlu olmalı. Yapılmamış özellikleri yapılmış gibi yazma.
+
+32. GELİŞTİRME AŞAMALARI
+
+Projeyi kontrollü aşamalara ayır ancak yalnızca plan yazıp durma. Her aşamada gerçek çalışan çıktı üret.
+
+Aşama 0: Mevcut durum analizi
+
+- Depoyu incele.
+- Hermes kurulumunu incele.
+- DeepSeek ve MiMo bağlantılarını incele.
+- Çalışan ve çalışmayan parçaları belirle.
+- Güvenlik açıklarını tespit et.
+- Teknik borçları listele.
+- Gerekirse mimariyi yeniden tasarla.
+
+Aşama 1: Temel masaüstü iskeleti
+
+- Masaüstü uygulaması
+- Ana navigasyon
+- Sohbet arayüzü
+- Yerel ayarlar
+- Veritabanı
+- Hermes sağlık kontrolü
+- Model sağlayıcı sistemi
+
+Aşama 2: Gerçek sohbet ve dosya sistemi
+
+- Mesaj akışı
+- Dosya yükleme
+- Dosya analizi
+- Sohbet geçmişi
+- Projeler
+- Model router
+- Kullanım takibi
+
+Aşama 3: Hermes görev motoru
+
+- Görev oluşturma
+- Görev planı
+- Canlı adımlar
+- İptal
+- Duraklatma
+- Sürdürme
+- Kalıcı görev kuyruğu
+- Hata kurtarma
+
+Aşama 4: Tarayıcı ve computer use
+
+- Canlı ekran
+- Tarayıcı kontrolü
+- Devralma
+- Onay sistemi
+- Güvenli oturum yönetimi
+
+Aşama 5: Kodlama ve dosya işlemleri
+
+- Diff
+- Test
+- Terminal
+- Git
+- Geri alma
+- Artifact yönetimi
+
+Aşama 6: Otomasyon ve hafıza
+
+- Zamanlanmış görevler
+- Tetikleyiciler
+- Proje hafızası
+- Bildirimler
+- Uzun görevlerin devamı
+
+Aşama 7: Ürünleştirme
+
+- Installer
+- Otomatik güncelleme
+- Çökme kurtarma
+- Telemetri tercihi
+- Dil desteği
+- Erişilebilirlik
+- Performans
+- Güvenlik denetimi
+
+Aşama 8: SaaS hazırlığı
+
+- Kullanıcı izolasyonu
+- Hesap mimarisi
+- Kota
+- Faturalama temeli
+- Yönetici paneli tasarımı
+- Sunucu dağıtım planı
+
+33. HER AŞAMANIN ÇIKIŞ KRİTERLERİ
+
+Bir aşama şu şartlar olmadan tamamlanmış sayılmasın:
+
+- Kod yazıldı.
+- Build başarılı.
+- İlgili testler geçti.
+- Temel kullanıcı akışı gerçek olarak denendi.
+- Bilinen eksikler yazıldı.
+- Güvenlik etkisi değerlendirildi.
+- Dokümantasyon güncellendi.
+- Gerekirse ekran görüntüsü veya çalışma kanıtı üretildi.
+- Sonraki aşamayı engelleyen kritik sorun kalmadı.
+
+34. ÇALIŞMA BİÇİMİN
+
+Her geliştirme döngüsünde:
+
+1. Mevcut kodu oku.
+2. Sorunu veya hedefi tanımla.
+3. En iyi çözümü belirle.
+4. Küçük ve geri alınabilir değişiklik yap.
+5. Test çalıştır.
+6. Hata varsa düzelt.
+7. Sonucu doğrula.
+8. Yapılanları kaydet.
+9. Sonraki en değerli işe geç.
+
+Sadece uzun açıklamalar üretip kod yazmayı erteleme.
+
+Aynı zamanda düşünmeden büyük miktarda kod üretme. Önce mevcut sistemi ve bağımlılıkları incele.
+
+Kod içinde geçici hack, sahte veri, çalışmayan buton veya göstermelik ekran bırakma. Geçici bir çözüm zorunluysa açıkça "TODO" ve açıklama ekle.
+
+35. KULLANICIYA SUNULACAK İLERLEME RAPORU
+
+Her önemli çalışma sonunda şu formatta rapor ver:
+
+Tamamlananlar
+
+Gerçekten çalışan özellikler.
+
+Değiştirilen dosyalar
+
+Önemli dosyalar ve değişiklik amaçları.
+
+Doğrulama
+
+Çalıştırılan test, build ve manuel kontroller.
+
+Mevcut durum
+
+Şu an uygulamanın nasıl çalıştırılacağı.
+
+Bilinen eksikler
+
+Henüz tamamlanmayan veya sınırlı özellikler.
+
+Riskler
+
+Güvenlik, veri kaybı, maliyet veya kararlılık riskleri.
+
+Sonraki en mantıklı adım
+
+Projeyi ileri taşıyacak tek veya birkaç net işlem.
+
+36. KESİN KURALLAR
+
+- Sahte başarı raporu verme.
+- Test etmediğin özelliğe “çalışıyor” deme.
+- Güvenlik kontrollerini sonraya bırakma.
+- API anahtarlarını düz metin saklama.
+- Kullanıcının dosyalarını izinsiz silme.
+- Geri döndürülemez işlemleri onaysız yapma.
+- Her görevde en pahalı modeli kullanma.
+- Kullanıcı arayüzünü teknik terimlerle doldurma.
+- Hermes’i UI katmanına doğrudan bağımlı hale getirme.
+- Tek bir model sağlayıcısına kilitlenme.
+- Uzun görevleri yalnızca bellekte tutma.
+- Kullanıcıya sahte ilerleme gösterme.
+- Mevcut çalışan sistemi sebepsiz yere bozma.
+- Büyük değişikliklerden önce geri dönüş noktası oluştur.
+- Hata oluştuğunda problemi gizleme.
+- Lisansları ve üçüncü taraf kullanım şartlarını görmezden gelme.
+- Başka ticari ürünlerin marka, kod veya özel tasarımlarını izinsiz kopyalama.
+
+37. İLK GÖREVİN
+
+Şimdi aşağıdaki sırayla çalışmaya başla:
+
+1. Mevcut proje klasörünü baştan sona incele.
+2. Hermes Agent’ın nasıl kurulduğunu ve çalıştırıldığını belirle.
+3. DeepSeek ve MiMo bağlantılarının mevcut durumunu kontrol et.
+4. Mevcut kod, klasör yapısı ve bağımlılıkların haritasını çıkar.
+5. Çalışan ve çalışmayan parçaları gerçek testlerle belirle.
+6. Güvenlik açısından tehlikeli noktaları tespit et.
+7. Masaüstü uygulaması için uygun teknoloji seçimini yap.
+8. Önerilen hedef mimariyi oluştur.
+9. Gereksiz veya yanlış önceki kararları düzelt.
+10. İlk çalışan masaüstü iskeletini geliştir.
+11. Hermes sağlık kontrolünü arayüzde göster.
+12. DeepSeek ve MiMo için güvenli bağlantı ayarlarını ekle.
+13. Gerçek bir sohbet mesajını seçilen modele gönderip yanıtı arayüzde göster.
+14. Tüm işlemleri test et.
+15. Çalıştırma talimatını ve yapılanları raporla.
+
+Yalnızca plan hazırlayıp çalışmayı durdurma. Analizden sonra doğrudan uygulanabilir ilk sürümü geliştirmeye başla.
+
+38. NİHAİ HEDEF
+
+Ortaya çıkacak ürün, kullanıcının şunu yapabilmesini sağlamalıdır:
+
+Uygulamayı açar, yapmak istediği işi normal bir insan gibi yazar, gerekirse dosyalarını yükler ve sistem uygun modeli, ajanı, aracı ve çalışma yöntemini seçerek görevi gerçekleştirir.
+
+Kullanıcı dilerse yapılan işlemleri canlı izler, bilgisayar kontrolünü devralır, kritik işlemleri onaylar, görevi durdurur veya devam ettirir.
+
+Sonuçta yalnızca bir cevap değil; dosya, kod, araştırma, otomasyon, web işlemi, bilgisayar işlemi veya tamamlanmış proje gibi gerçek bir çıktı alır.
+
+Sistem güçlü olmalı ancak kontrolsüz olmamalıdır.
+
+Basit olmalı ancak oyuncak seviyesinde olmamalıdır.
+
+İlk sürüm kişisel kullanım için çalışmalı ancak mimarisi gelecekte küresel bir ürüne dönüşebilecek kadar sağlam olmalıdır.

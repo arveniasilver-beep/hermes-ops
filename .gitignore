@@ -1,0 +1,50 @@
+# Secrets and local credentials
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*.pfx
+*.token
+secrets/
+
+# Runtime state
+.hermes/
+artifacts/
+logs/
+backups/
+runtime/sovereign-audit-data/
+runtime/sovereign-hermes-gateways/
+runtime/*.png
+*.log
+*.db
+*.db-shm
+*.db-wal
+*.pid
+*.tmp
+
+# Tooling
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+node_modules/
+runtime/hermes-agent/.pytest-tmp/
+runtime/hermes-agent/apps/desktop/.vite-cache/
+runtime/hermes-agent/apps/desktop/build/
+runtime/hermes-agent/apps/desktop/dist/
+runtime/hermes-agent/apps/desktop/release/
+
+# Yerel ajan/oturum durumu
+.agents/
+.claude/
+
+# Vendored upstream Hermes Agent (runtime/hermes-agent) and all local runtime
+# data stay outside this repository; see the notice at the top of README.md.
+runtime/
+
+# Editor and OS files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
